@@ -1,0 +1,97 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #242424;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(119, 244, 229, 0.2);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  border-radius: 10px;
+  background: rgba(119, 244, 229, 0.9);
+}
+
+.section {
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.heading {
+  margin-top: calc(40vh);
+  margin-left: 80px;
+  z-index: 10;
+}
+
+.heading h1 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 3.3rem;
+}
+
+.subheading {
+  font-size: 1rem;
+  letter-spacing: 1px;
+  color: rgba(255,255,255,0.35);
+}
+
+.major {
+  color: #5945F4;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.lastname {
+  font-weight: bold;
+}
+
+.lastname .highlight {
+  color: #5396f8;
+}
+
+#my-icon {
+  position: absolute;
+  top: 60%;
+  right: 80px;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.button {
+  padding: 13px 25px;
+  border-radius: 10px;
+  border: solid 1px #77F4E5;
+  color: #77F4E5;
+  font-weight: 500;
+  width: fit-content;
+  transition: 0.5s;
+}
+
+.button:hover {
+  -moz-user-select: none;
+  -ms-user-select: none;
+  cursor: pointer;
+  user-select: none;
+  background-color: #77F4E5;
+  color: #242424;
+  transition: 0.5s;
+}
+
